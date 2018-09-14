@@ -60,14 +60,18 @@
          <importer
          	id = "gradleProjectImporter"
          	order ="300"
-         	class = "org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter"/> 
+         	class = "org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter"/>
          <importer
          	id = "mavenProjectImporter"
          	order = "400"
          	class = "org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporter"/>
+		<importer
+         	id = "antProjectImporter"
+         	order = "500"
+         	class = "org.elastic.jdt.ls.core.internal.managers.AntProjectImporter"/>
          <importer
          	id = "eclipseProjectImporter"
          	order = "1000"
-         	class = "org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter"/>       	
+         	class = "org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter"/>
    </extension>
 </plugin>
